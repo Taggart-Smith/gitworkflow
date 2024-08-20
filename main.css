@@ -1,8 +1,3 @@
-a{
-    color: inherit;
-    text-decoration: inherit;
-}
-
 .nav-wrapper{
     height:190px;
     background-color:#11122b;
@@ -13,8 +8,23 @@ a{
     align-items: center;
 }
 
-.middle-column{
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.nav-wrapper > .middle-column{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.middle-column > .nav-link {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.right-column{
+    padding-right: 50px;
 }
