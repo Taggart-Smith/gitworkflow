@@ -1,9 +1,12 @@
-#h1{
-    text-align: center;
-    color: #ffffff;
+header{
+    color: #0b94a7;
+    display: grid;
+    width: 100%;
+    
 }
 
-#p{
+#nav-bar{
+    text-emphasis: none;
     text-align: center;
-    background-color: bisque;
 }
+
