@@ -1,12 +1,25 @@
+body{
+    margin: 0em;
+}
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
 header{
-    color: #0b94a7;
+    background-color: #95B8D1;
     display: grid;
     width: 100%;
-    
+    margin: 0em;    
 }
 
 #nav-bar{
     text-emphasis: none;
     text-align: center;
+    font-size: 2rem;
+    color: #545E75;
+
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
 }
 
